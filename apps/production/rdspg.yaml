@@ -14,7 +14,7 @@ metadata:
   namespace: retailapp
 spec:
   allocatedStorage: 20
-  dbInstanceClass: db.t4g.micro
+  dbInstanceClass: db.t3.micro
   dbInstanceIdentifier: rdspg
   storageEncrypted: true
   engine: postgres
