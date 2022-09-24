@@ -3,6 +3,4 @@ kind: Kustomization
 namespace: ack-system
 resources:
   - namespace.yaml
-  - rds.yaml
-  - ec2.yaml
-  - elasticache.yaml
+  - rds-release.yaml
